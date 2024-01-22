@@ -26,7 +26,12 @@ especificamente se aplicará el stilo */
     color: red;
 }
 
-
+/*Para las ids: #*/
 #mision{
     font-size: 20px;
+}
+
+/* Para los class: . */
+.items{
+    font-style: italic;
 }
