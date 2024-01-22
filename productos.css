@@ -1,5 +1,19 @@
 header{
     background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    /* Absolute nos sirve para poder mover la imagen */
+    position: absolute;
+    top:110px;
+    right: 0;
 }
 
 nav li{
