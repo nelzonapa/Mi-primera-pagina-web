@@ -3,21 +3,25 @@ Estos estilos afectan a la etiqueta
 * Es importante tener el orden de las etiquetas padres e hijas
 */
 body{
-    background: whitesmoke;
+
 }
 
 #banner{
     width: 100%;
 }
 
+.principal{
+    background: #CCCCCC;
+}
+
 h1{
     text-align: center; 
-    background: whitesmoke;
+    background: #CCCCCC;
 }
 
 p{
     text-align: center;
-    background: whitesmoke;
+    background: #CCCCCC;
 } 
 
 /* Se puede combinar etiquetas para indicarle donde
@@ -29,6 +33,14 @@ especificamente se aplicará el stilo */
 /*Para las ids: #*/
 #mision{
     font-size: 20px;
+}
+
+.diferenciales{
+    background: white;
+}
+
+h2{
+    text-align: center;
 }
 
 /* Para los class: . */
