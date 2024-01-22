@@ -2,8 +2,8 @@
 Estos estilos afectan a la etiqueta
 * Es importante tener el orden de las etiquetas padres e hijas
 */
-body{
-
+.titulo-principal{
+    padding-left: 30px;
 }
 
 #banner{
@@ -15,7 +15,7 @@ body{
     padding: 20px;
 }
 
-h1{
+.titulo-centralizado{
     text-align: center; 
     background: #CCCCCC;
 }
@@ -42,9 +42,6 @@ especificamente se aplicará el stilo */
     padding: 30px;
 }
 
-h2{
-    text-align: center;
-}
 
 /* Para los class: . */
 .items{
