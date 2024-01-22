@@ -1,3 +1,18 @@
+/*
+Estos estilos afectan a la etiqueta
+* Es importante tener el orden de las etiquetas padres e hijas
+*/
+body{
+    background: whitesmoke;
+}
+
 p{
     text-align: center;
+    background: whitesmoke;
 } 
+
+/* Se puede combinar etiquetas para indicarle donde
+especificamente se aplicará el stilo */
+ em strong{
+    color: red;
+}
