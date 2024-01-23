@@ -78,7 +78,11 @@ nav a:hover{
     border-color: #088c19;
 }
 
-
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
 
 .productos h2{
     font-size: 30px;
