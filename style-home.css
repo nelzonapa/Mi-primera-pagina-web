@@ -1,0 +1,60 @@
+/*
+Estos estilos afectan a la etiqueta
+* Es importante tener el orden de las etiquetas padres e hijas
+*/
+.titulo-principal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center; 
+    background: #CCCCCC;
+}
+
+p{
+    text-align: center;
+    background: #CCCCCC;
+} 
+
+/* Se puede combinar etiquetas para indicarle donde
+especificamente se aplicará el stilo */
+ em strong{
+    color: red;
+}
+
+/*Para las ids: #*/
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: white;
+    /* Para distancia vertical */
+    padding: 30px;
+}
+
+
+/* Para los class: . */
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}

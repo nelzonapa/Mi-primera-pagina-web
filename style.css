@@ -1,60 +1,114 @@
-/*
-Estos estilos afectan a la etiqueta
-* Es importante tener el orden de las etiquetas padres e hijas
-*/
-.titulo-principal{
-    padding-left: 30px;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner{
-    width: 100%;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
+nav{
+    /* Absolute nos sirve para poder mover la imagen */
+    position: absolute;
+    top:110px;
+    right: 0;
 }
 
-.titulo-centralizado{
-    text-align: center; 
-    background: #CCCCCC;
+nav li{
+    /* Para que lka lista de items se haga en una sola Linea */
+    display: inline;
+    margin:0 0 0 15px;
 }
 
-p{
-    text-align: center;
-    background: #CCCCCC;
-} 
-
-/* Se puede combinar etiquetas para indicarle donde
-especificamente se aplicará el stilo */
- em strong{
-    color: red;
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-/*Para las ids: #*/
-#mision{
-    font-size: 20px;
+/* Para comportamiento de página */
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-.diferenciales{
-    background: white;
-    /* Para distancia vertical */
-    padding: 30px;
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    /*padding: El elemento aumenta su tamaño.  */
+    padding: 50px;
 }
 
-
-/* Para los class: . */
-.items{
-    font-style: italic;
-}
-
-ul{
+.productos li{
+    /* Inline-block. El tamaño puede ser ajustado, tanto en la largura, como en la altura. */
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid; */
+    /* un borde queda posicionado entre el padding y el margin. */
+    border: 2px solid #000000;
+
+    /* Bordes cirulo */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 40px; */
+    /* border-radius: 10px 25px 40px 50px; */
+    border-radius: 10px;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+/* Comportamiento productos diseño */
+.productos li:hover{
+    border-color: #c78c19;
+    font-size: 33px;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+
+.producto-descripcion{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+
 }
