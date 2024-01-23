@@ -50,8 +50,16 @@ nav a{
     /* border-color: #000000;
     border-width: 2px;
     border-style: solid; */
-
+    /* un borde queda posicionado entre el padding y el margin. */
     border: 2px solid #000000;
+
+    /* Bordes cirulo */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 40px; */
+    /* border-radius: 10px 25px 40px 50px; */
+    border-radius: 10px;
 }
 
 .productos h2{
