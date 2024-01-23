@@ -10,7 +10,8 @@
     <body>
         <header>
             <div class="caja">
-                <h1><img src="./imagenes/logo.png"></h1>
+                <!-- alt para detalles de la imagen, también sirve para busqueda en Google -->
+                <h1><img src="./imagenes/logo.png" alt="Logo de la Barbería Alura"></h1>
 
                 <nav>
                     <ul>
@@ -36,8 +37,9 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
                 
-                <div>
-                    <p>¿Cómo le gustaría que lo contactemos?</p>
+                <!-- Field set indica que este grupo esta mucho más relacionado y realizan juntos cierta accion -->
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
                 
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
                 
@@ -45,25 +47,25 @@
                 
                     <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                 
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>¿En cuál horario prefiere ser atendido?</p>
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
                 
                 <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?</label>      
 
-                <input type="submit" value="Enviar formulario">
+                <input type="submit" value="Enviar formulario"  class="enviar">
             </form>
         </main>
 
         <footer>
-            <img src="./imagenes/logo-blanco.png">
+            <img src="./imagenes/logo-blanco.png" alt="Logo de la Barbería Alura">
             <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
         </footer>
     </body>
