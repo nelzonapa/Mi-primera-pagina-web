@@ -197,7 +197,6 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    color: rgb(218, 0, 0);
 }
 
 /* .titulo-principal::first-letter{
@@ -288,6 +287,8 @@ p::first-line{
 .imagen-diferenciales{
     width: 60%;
     transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+    /* Puedes visitar : box shadown generator mozilia */
 }
 
 
