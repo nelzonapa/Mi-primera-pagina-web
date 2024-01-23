@@ -75,7 +75,6 @@ nav a:hover{
 /* Comportamiento productos diseño */
 .productos li:hover{
     border-color: #c78c19;
-    font-size: 33px;
 }
 
 .productos li:active{
@@ -119,6 +118,7 @@ footer{
 
 
 /* Part of contacto */
+
 
 form {
     margin: 40px 0;
