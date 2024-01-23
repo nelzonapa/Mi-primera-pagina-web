@@ -30,6 +30,12 @@ nav a{
     text-decoration: none;
 }
 
+/* Para comportamiento de página */
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .productos{
     width: 940px;
     margin: 0 auto;
@@ -61,6 +67,7 @@ nav a{
     /* border-radius: 10px 25px 40px 50px; */
     border-radius: 10px;
 }
+
 
 .productos h2{
     font-size: 30px;
