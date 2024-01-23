@@ -119,10 +119,6 @@ footer{
 
 
 /* Part of contacto */
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 form {
     margin: 40px 0;
@@ -189,6 +185,13 @@ td, th {
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -223,6 +226,7 @@ td, th {
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
 }
 
 .mapa p{
@@ -230,6 +234,15 @@ td, th {
     text-align: center;
 }
 
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
 
 .contenido-diferenciales{
     width: 640px;
