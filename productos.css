@@ -78,11 +78,6 @@ nav a:hover{
     border-color: #088c19;
 }
 
-footer{
-    text-align: center;
-    background: url(./imagenes/bg.jpg);
-    padding: 40px;
-}
 
 .productos h2{
     font-size: 30px;
@@ -103,4 +98,17 @@ footer{
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+
 }
